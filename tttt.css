@@ -1,0 +1,417 @@
+    .fs-logo-container,
+    .fs-bottom-triangle-border,
+    .fs-bottom-triangle {
+        display: none;
+    }
+
+    .fs-header-top {
+        border: none;
+    }
+
+    .jumbotron.fs-header {
+        opacity: 0;
+        height: 600px;
+    }
+
+    /* Base banner styles (Desktop) */
+    body>div.fs-root.fs-pre-campaign>div>div.container-fluid.fs-goal::before,
+    body>div.fs-root.fs-pre-campaign>div>div.container-fluid.fs-goal::after,
+    body>div.fs-root.fs-pre-campaign::before,
+    body>div.fs-root.fs-pre-campaign::after,
+    body>div.fs-root.fs-pre-campaign>div::before,
+    body>div.fs-root.fs-pre-campaign>div::after,
+    body>div.fs-root.fs-pre-campaign>div>div::before {
+        content: "";
+        position: absolute;
+        top: 46px;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        opacity: 0;
+        animation-duration: 56s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        z-index: 0;
+    }
+
+    /* Desktop Image URLs */
+    body>div.fs-root.fs-pre-campaign::before {
+        background-image: url('https://picsum.photos/800/400');
+        animation-name: fade1;
+    }
+
+    body>div.fs-root.fs-pre-campaign::after {
+        background-image: url('https://picsum.photos/800/400?1');
+        animation-name: fade2;
+    }
+
+    body>div.fs-root.fs-pre-campaign>div::before {
+        background-image: url('https://picsum.photos/800/400?2');
+        animation-name: fade3;
+    }
+
+    body>div.fs-root.fs-pre-campaign>div::after {
+        background-image: url('https://picsum.photos/800/400?3');
+        animation-name: fade4;
+    }
+
+    body>div.fs-root.fs-pre-campaign>div>div::before {
+        background-image: url('https://picsum.photos/800/400?4');
+        animation-name: fade5;
+    }
+
+    body>div.fs-root.fs-pre-campaign>div>div::after {
+        background-image: url('https://picsum.photos/800/400?5');
+        animation-name: fade6;
+    }
+
+    body>div.fs-root.fs-pre-campaign>div>div.container-fluid.fs-goal::before {
+        background-image: url('https://picsum.photos/800/400?6');
+        animation-name: fade7;
+    }
+
+    /* Desktop Keyframes */
+    @keyframes fade1 {
+        0% {
+            opacity: 1;
+        }
+
+        14.28% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade2 {
+
+        0%,
+        14.28% {
+            opacity: 0;
+        }
+
+        14.28% {
+            opacity: 1;
+        }
+
+        28.56% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade3 {
+
+        0%,
+        28.56% {
+            opacity: 0;
+        }
+
+        28.56% {
+            opacity: 1;
+        }
+
+        42.84% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade4 {
+
+        0%,
+        42.84% {
+            opacity: 0;
+        }
+
+        42.84% {
+            opacity: 1;
+        }
+
+        57.12% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade5 {
+
+        0%,
+        57.12% {
+            opacity: 0;
+        }
+
+        57.12% {
+            opacity: 1;
+        }
+
+        71.40% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade6 {
+
+        0%,
+        71.40% {
+            opacity: 0;
+        }
+
+        71.40% {
+            opacity: 1;
+        }
+
+        85.68% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade7 {
+
+        0%,
+        85.68% {
+            opacity: 0;
+        }
+
+        85.68% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /* ---------------------------- */
+    /* 📱 MOBILE SUPPORT (400x400) */
+    /* ---------------------------- */
+    @media (max-width: 768px) {
+        .jumbotron.fs-header {
+            opacity: 0;
+            height: 1px;
+            margin-top: -55px;
+        }
+
+        /* Base banner styles (Desktop) */
+        body>div.fs-root.fs-pre-campaign>div>div.container-fluid.fs-goal::before,
+        body>div.fs-root.fs-pre-campaign>div>div.container-fluid.fs-goal::after,
+        body>div.fs-root.fs-pre-campaign::before,
+        body>div.fs-root.fs-pre-campaign::after,
+        body>div.fs-root.fs-pre-campaign>div::before,
+        body>div.fs-root.fs-pre-campaign>div::after,
+        body>div.fs-root.fs-pre-campaign>div>div::before {
+            content: "";
+            position: absolute;
+            top: 46px;
+            left: 0;
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            animation-duration: 56s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            z-index: 0;
+        }
+
+        body>div.fs-root.fs-pre-campaign::before {
+            background-image: url('https://picsum.photos/400/400');
+            animation-name: fade1m;
+        }
+
+        body>div.fs-root.fs-pre-campaign::after {
+            background-image: url('https://picsum.photos/400/400?1');
+            animation-name: fade2m;
+        }
+
+        body>div.fs-root.fs-pre-campaign>div::before {
+            background-image: url('https://picsum.photos/400/400?2');
+            animation-name: fade3m;
+        }
+
+        body>div.fs-root.fs-pre-campaign>div::after {
+            background-image: url('https://picsum.photos/400/400?3');
+            animation-name: fade4m;
+        }
+
+        body>div.fs-root.fs-pre-campaign>div>div::before {
+            background-image: url('https://picsum.photos/400/400?4');
+            animation-name: fade5m;
+        }
+
+        body>div.fs-root.fs-pre-campaign>div>div::after {
+            background-image: url('https://picsum.photos/400/400?5');
+            animation-name: fade6m;
+        }
+
+        body>div.fs-root.fs-pre-campaign>div>div.container-fluid.fs-goal::before {
+            background-image: url('https://picsum.photos/400/400?6');
+            animation-name: fade7m;
+        }
+
+        /* Ensure height and background consistency */
+        body>div.fs-root.fs-pre-campaign::before,
+        body>div.fs-root.fs-pre-campaign::after,
+        body>div.fs-root.fs-pre-campaign>div::before,
+        body>div.fs-root.fs-pre-campaign>div::after,
+        body>div.fs-root.fs-pre-campaign>div>div::before,
+        body>div.fs-root.fs-pre-campaign>div>div::after,
+        body>div.fs-root.fs-pre-campaign>div>div.container-fluid.fs-goal::before {
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    /* Mobile Keyframes */
+    @keyframes fade1m {
+        0% {
+            opacity: 1;
+        }
+
+        14.28% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade2m {
+
+        0%,
+        14.28% {
+            opacity: 0;
+        }
+
+        14.28% {
+            opacity: 1;
+        }
+
+        28.56% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade3m {
+
+        0%,
+        28.56% {
+            opacity: 0;
+        }
+
+        28.56% {
+            opacity: 1;
+        }
+
+        42.84% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade4m {
+
+        0%,
+        42.84% {
+            opacity: 0;
+        }
+
+        42.84% {
+            opacity: 1;
+        }
+
+        57.12% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade5m {
+
+        0%,
+        57.12% {
+            opacity: 0;
+        }
+
+        57.12% {
+            opacity: 1;
+        }
+
+        71.40% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade6m {
+
+        0%,
+        71.40% {
+            opacity: 0;
+        }
+
+        71.40% {
+            opacity: 1;
+        }
+
+        85.68% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade7m {
+
+        0%,
+        85.68% {
+            opacity: 0;
+        }
+
+        85.68% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
